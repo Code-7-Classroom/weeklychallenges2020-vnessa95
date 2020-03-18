@@ -1,0 +1,29 @@
+.board{
+    height:800px;
+    width:800px;
+    border: black 6px solid;
+    margin: auto;
+    
+  }
+  
+  .box1{
+    background-color: black;
+    height:100px;
+    width:100px;
+  }
+  
+  .box2{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .row{
+    display: flex;
+    flex-direction:row;
+  }
+  
+  .row-reverse{
+    display: flex;
+    flex-direction:row-reverse;
+  }

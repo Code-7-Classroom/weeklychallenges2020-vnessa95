@@ -1,0 +1,19 @@
+table{
+    width:800px;
+    height: 400px;
+    border: black 4px solid;
+  }
+  
+  .red{  
+    background-color:red;
+  }
+  
+  .white{  
+    background-color:white;
+  }
+  
+  img {
+  position: absolute;
+  height: 25.4%;
+  margin: .4%;
+  }
