@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="yoga supplies">
+    <meta name="keywords" content="yoga, charlotte, north carolina">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Yoga supplies</title>
+</head>
+
+<body>
+    <header>
+
+        <img class="logo" src="img/TheFloralYogi-Logo.png" alt="logo">
+        <nav>
+            <ul class="contact-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="error"></div>
+    <form id="myForm" onsubmit="validate()">
+
+        <div id="contact-pic-wrapper"> <img id="contact-pic" src="img/yogapose.jpg" alt="full-lotus"></div>
+
+        <div class="contact-wrapper">
+            <h2>Talk to me!</h2>
+<label for="name">Name</label>
+            <input type="text"  id="name" class="input-field" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="input-field" required>
+            <label for="email">Email</label>
+            <input type="text"  id="email" class="input-field" required>
+            <label for="message">Message</label>
+            <textarea id="message"  class="input-field" required></textarea>
+
+            <input type="submit" class="btn" >
+
+    </form>
+    </div>
+
+    <footer class="contact-footer-distributed">
+
+        <div class="footer-link">
+
+            <a href="https://www.facebook.com/thefloralyogi/?ref=bookmarks"><i class="fa fa-facebook" alt="facebook"></i></a>
+            <a href="https://www.instagram.com/thafloralyogi/"><i class="fa fa-instagram" alt="instagram"></i></a>
+            <a href="https://www.pinterest.com/vrochelle1217/"><i class="fa fa-pinterest-p" alt="pinterest"></i></a>
+
+
+        </div>
+
+        <div class="footer-icon">
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Shopping</a>
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p>The Floral Yogi &copy; 2020</p>
+        </div>
+    </footer>
+
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
