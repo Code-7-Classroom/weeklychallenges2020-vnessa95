@@ -124,7 +124,7 @@ h1{
     color: #EC929A;
  } 
 
- span h1{
+ div h1{
    text-align: center;
    font-family: 'Oswald', sans-serif;
    color:#000000 ;
@@ -211,10 +211,6 @@ h1{
  
 
   /* media querries */
-
-  @media screen and (max-width: 480px) { 
-    /* CSS Code for when the screen size is 480px Screen size */
-  }
-  @media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
 @media screen and (max-width: 780px) { /* tablet */ }
 @media screen and (max-width: 480px) { /* mobile */ }

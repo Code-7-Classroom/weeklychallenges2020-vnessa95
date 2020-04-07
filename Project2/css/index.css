@@ -12,12 +12,13 @@ body{
 
 }
 /* theWhy */
-#quote{
+#quote h2{
  font-size: 18px;
  color: #000000;
  text-emphasis: left;
  font-family: 'Oswald', sans-serif;
  padding: 45px;
+ text-align: center;
 }
 section span{
   color: #fbe205;
@@ -32,6 +33,7 @@ section span{
   display: block;
   content: "";
 }
+
 #quote:after{
   border: #fbe205 2px solid;
   display: block;
@@ -163,10 +165,6 @@ header{
 
 
 /* media querries */
-
-@media screen and (max-width: 480px) { 
-  /* CSS Code for when the screen size is 480px Screen size */
-}
 @media screen and (max-width: 1020px) { /* Large Desktop */ }
 @media screen and (max-width: 780px) { /* tablet */ }
 @media screen and (max-width: 480px) { /* mobile */ }
