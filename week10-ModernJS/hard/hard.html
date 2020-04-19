@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dom Manipulation Hard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: url("/img/pink.jpeg") no-repeat center/cover;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 55px;
+      margin-top: 200px;
+      padding: 55px;
+      color: #D4AF37;
+      font-family: 'Lobster Two', cursive;
+    }
+
+    h2 {
+      font-size: 45px;
+      color: whitesmoke;
+      font-family: cursive;
+      
+    }
+
+    button {
+      padding: 10px;
+      box-shadow: 0 0 50px 25px #D4AF37;
+      border: none;
+      width: 500px;
+      height: 250px;
+      background-color:#D4AF37/* rgba(201, 114, 166, 0.973); */;
+      border:whitesmoke 1px dashed;
+    }
+
+    #btns {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .blue-clouds {
+      background: url("/img/blue.jpg") no-repeat center/cover;
+    }
+
+    .org-clouds {
+      background: url("/img/orange.jpg") no-repeat center/cover;
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <h1>Click the buttons to see a couple of my favorite skyviews</h1>
+  <div id="btns">
+    <div id="btn1">
+      <button id="blue" onClick="chgColor('blue')">
+        <h2>Clear skies</h2>
+      </button>
+    </div>
+    <div id="btn2">
+      <button id="org" onClick="chgColor('org')">
+        <h2>The sunset</h2>
+      </button>
+    </div>
+  </div>
+  <script>
+
+    //  Do Stuff Here
+
+    function chgColor(color) {
+      var pageBody = document.querySelector('body');
+      //var pageShadow = document.querySelector('btn');
+
+      if (color === 'blue') {
+        pageBody.classList.add('blue-clouds');
+        pageBody.classList.remove('org-clouds');
+      } else if (color === 'org') {
+        pageBody.classList.add('org-clouds');
+        pageBody.classList.remove('blue-clouds');
+      };
+
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
