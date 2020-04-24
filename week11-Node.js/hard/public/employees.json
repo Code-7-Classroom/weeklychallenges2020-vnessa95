@@ -1,0 +1,65 @@
+{
+    "employees":[
+        {
+           "name":"Ashley",
+           "id":1,
+           "salary":75000,
+           "dept": "HR"
+        },
+        {
+            "name":"Rita",
+            "id":2,
+            "salary":70000,
+            "dept": "HR"
+         },
+         {
+            "name":"Kobe",
+            "id":3,
+            "salary":70000,
+            "dept": "HR"
+         },
+         {
+            "name":"Angie",
+            "id":4,
+            "salary":92000,
+            "dept": "Operations"
+         },
+         {
+            "name":"Leo",
+            "id":5,
+            "salary":1000000,
+            "dept": "Operations"
+         },
+         {
+            "name":"Jeremy",
+            "id":6,
+            "salary":55000,
+            "dept": "Sales"
+         },
+         {
+            "name":"Alice",
+            "id":7,
+            "salary":55000,
+            "dept": "Sales"
+         },
+         {
+            "name":"C.J",
+            "id":8,
+            "salary":60000,
+            "dept": "Sales"
+         },
+         {
+            "name":"Nancy",
+            "id":9,
+            "salary":65000,
+            "dept": "Sales"
+         },
+         {
+            "name":"Danni",
+            "id":10,
+            "salary": 68000,
+            "dept": "Sales"
+         }
+    ]
+    
+}
