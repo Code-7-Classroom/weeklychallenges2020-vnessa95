@@ -7,17 +7,17 @@ let data = require('./public/employees.json')
 
 app.get('/employees', (req, res) => {
     if(!data){
-        res.status(404).send(`Couldn't find students.`)
+        res.status(404).send(`Couldn't find employee.`)
     }
 
     res.send(data)
 })
 
 app.get('/employees/:id', function(req, res){
-    const sData = data.employees.find(function(employee){
-            console.log(student.id)
+    const sData = data.employees.find(function(employees){
+            console.log(employees.id)
 
-            return parseInt(req.params.id) === employee.id
+            return parseInt(req.params.id) === employees.id
             //partseInt turning string into number
 
     })
