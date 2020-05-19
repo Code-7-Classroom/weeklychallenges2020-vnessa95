@@ -1,0 +1,8 @@
+.info{
+    display: grid;
+    grid-row-start: auto;
+    padding: 10px;
+    border: 1px black solid;
+    grid-gap: 15px;
+    background-color: aquamarine;
+}
